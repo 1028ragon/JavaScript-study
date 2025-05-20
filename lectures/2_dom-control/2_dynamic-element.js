@@ -1,3 +1,5 @@
+// 짐코딩 EP_05, 06 코드 실습습
+
 let addBtn = document.getElementById('button');
 let inputBox = document.querySelector('input');
 let addBeforeBtn = document.getElementById('before');

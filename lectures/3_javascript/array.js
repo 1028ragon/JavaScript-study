@@ -78,3 +78,23 @@ fruits.forEach(function (item, index) {
 let arr = [1, 'two', 3, 'four'];
 let numberArr = [...arr, 5, 'six'];
 console.log('numberArr: ', numberArr); // numberArr: [1, 'two', 3, 'four', 5, 'six']
+
+// 6. 배열 복사
+// 6-1. 전개 구문
+// const fruits = ['오렌지', '포도', '사과', '바나나', '딸기'];
+// const copy = [...fruits];
+copy.pop();                        // 끝에 항목 제거
+console.log('fruits: ', fruits);   // ['오렌지', '포도', '사과', '바나나', '딸기']
+console.log('copyFruits: ', copy); // ['오렌지', '포도', '사과', '바나나']
+
+// 6-2. Array.from
+// const fruits = ['오렌지', '포도', '사과', '바나나', '딸기'];
+// const copy = Array.from(fruits);
+copy.pop();                        // 끝에 항목 제거
+console.log('fruits: ', fruits);   // ['오렌지', '포도', '사과', '바나나', '딸기']
+console.log('copyFruits: ', copy); // ['오렌지', '포도', '사과', '바나나']
+
+// 6-3. slice
+// const arr = [1, 2, 3, 4, 5];
+const result = arr.slice(1, 4);
+console.log(result); // [2, 3, 4]

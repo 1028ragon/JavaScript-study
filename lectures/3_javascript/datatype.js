@@ -45,3 +45,15 @@ const person = {
     console.log('안녕하세요.')
   }
 };
+
+const person2 = {
+	name: '홍길동',
+	age: 20,
+	pet: {
+		name: '강아지',
+		age: 1
+	},
+	sayHello: function() {
+		console.log('hello');
+	}
+};

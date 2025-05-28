@@ -29,6 +29,6 @@ function sum(num1, num2) {
   return num1 + num2;
 }
 
-'use strict'; // 최상단에 쓰고 시작작
+'use strict'; // 최상단에 쓰고 시작
 number = 2;
 console.log(number);

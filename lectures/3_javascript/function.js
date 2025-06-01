@@ -15,7 +15,7 @@ sayHello();
 // 파라미터
 
 function sayHello(name, age) {
-	console.log('이름과 나이를 출력합니.');
+	console.log('이름과 나이를 출력합니다.');
 	console.log(`name: ${name}, age: ${age}세`);
 }
 sayHello('짐코딩', 20);

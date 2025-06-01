@@ -12,11 +12,11 @@ fruit[2] = '포도';
 console.log(fruits[2]);  // "포도"
 
 // 3. 자주 사용하는 배열 메서드
-// length : 배열의 길이이
+// length : 배열의 길이
 console.log('fruits.length: ', fruits.length); // 3
 console.log('last item: ', fruits[fruits.length - 1]); // last item:  딸기
 
-// push() : 배열 끝에 항목 추가가
+// push() : 배열 끝에 항목 추가
 fruits.push('포도');
 fruits.push('오렌지');
 console.log('fruits: ', fruits);

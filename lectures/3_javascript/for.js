@@ -1,4 +1,4 @@
-// 1. for 문문 
+// 1. for 문
 for (let i = 0; i < 5; i++) {
 	console.log(i);
 }
